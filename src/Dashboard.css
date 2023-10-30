@@ -1,0 +1,42 @@
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the navigation menu */
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+ul {
+    display: flex; /* Display the list items horizontally */
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    padding: 10px 0;
+}
+
+li {
+    margin: 0;
+}
+
+/* Style for the links */
+li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 15px; /* Add some spacing around the links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.2s; /* Smooth color transition on hover */
+}
+
+/* Style the links on hover */
+li a:hover {
+    background-color: #555; /* Darken the background color on hover */
+}
+
+/* Style the active link (e.g., the current page) */
+li a.active {
+    background-color: #f00; /* Highlight the active link with a different color */
+}
